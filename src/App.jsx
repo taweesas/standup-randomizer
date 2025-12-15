@@ -2,11 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 
 const StandupRandomizer = () => {
   const [members, setMembers] = useState([
-    { id: 1, name: 'สมชาย', avatar: '🧑‍💻', available: true },
-    { id: 2, name: 'สมหญิง', avatar: '👩‍💻', available: true },
-    { id: 3, name: 'วิชัย', avatar: '👨‍🔬', available: true },
-    { id: 4, name: 'มานี', avatar: '👩‍🎨', available: true },
-    { id: 5, name: 'ประยุทธ์', avatar: '🧑‍🚀', available: true },
+    { id: 1, name: 'ป๊อก', avatar: '👩‍💻🧑‍💻', available: true },
+    { id: 2, name: 'โฮป', avatar: '🧑‍💻', available: true },
+    { id: 3, name: 'ต้อม', avatar: '🧑‍💻', available: true },
+    { id: 4, name: 'ก้อง', avatar: '🧑‍💻', available: true },  
   ]);
   
   const [shuffledOrder, setShuffledOrder] = useState([]);
