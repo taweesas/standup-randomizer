@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 
 const StandupRandomizer = () => {
   const [members, setMembers] = useState([
-    { id: 1, name: 'ป๊อก', avatar: '👩‍💻🧑‍💻', available: true },
+    { id: 1, name: 'ป๊อก', avatar: '👩‍💻', available: true },
     { id: 2, name: 'โฮป', avatar: '🧑‍💻', available: true },
     { id: 3, name: 'ต้อม', avatar: '🧑‍💻', available: true },
     { id: 4, name: 'ก้อง', avatar: '🧑‍💻', available: true },  
